@@ -171,13 +171,13 @@ export default {
       } else {
         this.obj.courseOriginal = 0;
       }
-      if (!this.obj.courseLogo && !(this.$route.query.t === 'paper')) {
-        this.$msgBox({
-          content: '请上传课程封面',
-          isShowCancelBtn: false
-        })
-        return false;
-      }
+      // if (!this.obj.courseLogo && !(this.$route.query.t === 'paper')) {
+      //   this.$msgBox({
+      //     content: '请上传课程封面',
+      //     isShowCancelBtn: false
+      //   })
+      //   return false;
+      // }
       // console.log(tx)
 
       this.btnDis = true;
